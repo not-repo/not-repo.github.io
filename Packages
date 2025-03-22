@@ -21,9 +21,9 @@ Package: com.nahtedetihw.gesturesxv
  Depends: firmware (>= 15.0)
  Filename: ./debfiles/GesturesXV.deb
  Size: 4344
-MD5sum: 0645f8f6eb23f9f9a636617b3ba9edbd
-SHA1: 1406b501201fbe0b721b72543c5c9901aa2f17b7
-SHA256: 568a2ab1797f48a8a80a4cda17a786f709ccf77d7805d1d73161fd0d7613ad2f
+ MD5sum: 0645f8f6eb23f9f9a636617b3ba9edbd
+ SHA1:  1406b501201fbe0b721b72543c5c9901aa2f17b7
+ SHA256: 568a2ab1797f48a8a80a4cda17a786f709ccf77d7805d1d73161fd0d7613ad2f
  Section: Tweaks
  Description: iPhone X gestures brought to older iPhones compatible with iOS 15, now with roothide jb support.
  Author: ETHN
