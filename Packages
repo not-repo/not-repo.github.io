@@ -13,6 +13,18 @@ Description: Five Icon Dock
 Author: unknown
 Name: Five Icon Dock
 
+Package: com.nahtedetihw.gesturesxv
+ Version: 1.6
+ Architecture: iphoneos-arm64e
+ Maintainer: ETHN
+ Installed-Size: 2319
+ Filename: ./debfiles/GesturesXV.deb
+ Size: 2069
+ Section: Tweaks
+ Description: iPhone X gestures brought to older iPhones compatible with iOS 15, now with roothide jb support.
+ Author: ETHN
+ Name: GesturesXV
+
 Package: apt.tinyapps.Renet
 Version: 1.2.1
 Architecture: iphoneos-arm64e
