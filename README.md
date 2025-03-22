@@ -1,12 +1,8 @@
-# roothide.github.io
-RootHide's Repo
-
+# not-repo.github.io
+An Repo with roothide converted tweaks.
 
 
 ## about this repo
 
 
-repackage some free packages to be compatible with roothide. does not contain any pirated or paid packages.
-
-
-when you updated your tweak for roothide and uploaded it to your own repo or public repo, contact us if you want to remove it from this repo.
+It has some random repackaged tweaks to be compatible with roothide.
