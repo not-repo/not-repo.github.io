@@ -18,7 +18,8 @@ Version: 1.6
 Architecture: iphoneos-arm64e
 Maintainer: ETHN
 Installed-Size: 4344
-Depends: preferenceloader
+Depends: preferenceloader, mobilesubstrate
+Pre-Depends: rootless-compat(>= 0.9)
 Filename: ./debfiles/GesturesXV.deb
 Size: 4344
 MD5sum: 0645f8f6eb23f9f9a636617b3ba9edbd
@@ -28,6 +29,25 @@ Section: Tweaks
 Description: iPhone X gestures brought to older iPhones compatible with iOS 15, now with roothide jb support.
 Author: ETHN
 Name: GesturesXV
+
+Package: com.ps.amber
+Name: Amber
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Description: Amber-ify your flashlight LEDs.
+Author: PoomSmart
+Filename: ./debfiles/Amber.deb
+Size: 117
+MD5sum: b96e2911b53e41fc25c0df81ee604013
+SHA1: d49f35516379897c9779fa05062a5e3e17d0e1a2
+SHA256: a0e0e666a1f40b5466baabd9fff7b50bae2d4a7d9a13461f89160b3e3ea1dbe9
+Maintainer: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Installed-Size: 304
+Pre-Depends: rootless-compat(>= 0.9)
 
 Package: apt.tinyapps.Renet
 Version: 1.2.1
